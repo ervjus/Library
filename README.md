@@ -5,7 +5,7 @@ Select book from list. Add, delete or edit books.
 NPM INSTALL
 
 
-NPM START
+start front NPM START
 
 
-cd back NPM START
+start back: cd back NPM START
