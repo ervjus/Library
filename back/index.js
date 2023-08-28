@@ -21,27 +21,27 @@ app.use(requestLogger)
 
 let books = [
     {
-        title: "Tuomion miekka17",
-        author: "Kekkonen",
-        description: "Pelottavia juttuja",
+        title: "Tuomion miekka",
+        author: "Teemu Turunen",
+        description: "Sankarillisia tarinoita",
         id: 1
       },
       {
-        title: "Peli on lopussa16",
-        author: "Kekkonen2",
-        description: "Lohikäärmeitä2",
+        title: "Luvattu maa",
+        author: "Noora Kivimäki",
+        description: "Lupauksia maasta",
         id: 2
       },
       {
-        title: "Broken Angels2",
-        author: "Kekkonen",
-        description: "Miekkoja ja kilpiä",
+        title: "Tatu ja Patu",
+        author: "Kovaa menoa kiskoilla",
+        description: "Kirjassa Tatulla ja patulla on kovaa menoa kiskoilla",
         id: 3
       },
       {
-        title: "The Cold Commands1",
-        author: "Kekkonen1",
-        description: "Kääpiöitä1",
+        title: "Pizze",
+        author: "Saku Tuominen",
+        description: "Pizzojen paistamiseen vinkkejä",
         id: 4
       }
 ]
