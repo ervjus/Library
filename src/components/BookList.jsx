@@ -29,11 +29,11 @@ function BookList() {
         title: newTitle,
         author:newAuthor,
         description: newDescription,
-    }
+     };
   
-      bookService
-      .create(bookObject)
-      .then(returnedBook => {
+    bookService
+    .create(bookObject)
+    .then(returnedBook => {
         setBooks(books.concat(returnedBook))
       })
       setSelected('')
@@ -48,41 +48,41 @@ function BookList() {
     title: newTitle,
     author:newAuthor,
     description: newDescription,
-    }
+    };
         bookService
         .update(id, changedBook)
         .then(returnedBook => {
           setBooks(books.map(book => book.id !== id ? book : returnedBook))
-      })
-  }
+      });
+  };
 
 
   const removeBook = id => { 
         bookService
         .remove(id)
         setBooks(books.filter(books => books.id !== id))
-      setSelected('')
-      setNewTitle('')
-      setNewAuthor('')
-      setNewDescription('')
+        setSelected('')
+        setNewTitle('')
+        setNewAuthor('')
+        setNewDescription('')
    };
 
-const emptyForm = () => { 
-  setSelected('')
-  setNewTitle('')
-  setNewAuthor('')
-  setNewDescription('')
-};
+  const emptyForm = () => { 
+        setSelected('')
+        setNewTitle('')
+        setNewAuthor('')
+        setNewDescription('')
+  };
 
   const onChangeTitle = (event) => {
     setNewTitle(event.target.value)
-  }
+  };
   const onChangeAuthor = (event) => {
     setNewAuthor(event.target.value)
-  }
+  };
   const onChangeDescription = (event) => {
     setNewDescription(event.target.value)
-  }
+  };
   const onChangeSelected = (event) => {
     setSelected(event.target.value)
     
@@ -93,8 +93,8 @@ const emptyForm = () => {
     setNewDescription(books[i].description)
     setNewTitle(books[i].title)
   }
-}
-  }
+};
+  };
 
     return (
         <div style={{
