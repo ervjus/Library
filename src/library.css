@@ -1,0 +1,41 @@
+
+.libraryHeader {
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  
+}
+
+.saveButton {
+  width: 6rem;
+  background-color: green !important;
+}
+
+.emptyButton {
+  width: 6rem;
+  background-color: grey !important;
+  margin-left: 1rem;
+}
+
+.addNewButton {
+  width: 6rem;
+  background-color: purple !important;
+    margin-left: 1rem;
+}
+
+.deleteButton {
+  width: 6em;
+  background-color: red !important;
+    margin-left: 1rem;
+}
+
+.formCard {
+  width: 56em;
+}
+
+.containerApp {
+  justify-content: center;
+  display: grid;
+  margin-top: 5rem;
+}
+
