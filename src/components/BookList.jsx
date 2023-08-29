@@ -136,7 +136,6 @@ function BookList() {
                             </Input>
                           </FormGroup>
                         </Col>
-                        <p>{books.Author}</p>
                   </Row>
                   <Row>
                   <Col md="7">
